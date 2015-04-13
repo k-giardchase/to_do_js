@@ -10,3 +10,7 @@
 .task:hover {
   text-decoration: underline;
 }
+
+#complete {
+  display: none;
+}
