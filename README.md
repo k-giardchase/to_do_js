@@ -12,7 +12,7 @@ Javascript <br>
 <a href='https://jquery.com/download/'>jQuery-1.11.2</a> <br>
 
 ##Use and Editing
-To use the app, clone the repository. In the top level of the project folder, click on todo.html and open it in your web browser.
+To use the app, `git clone` the repository. In the top level of the project folder, click on `todo.html` and open it in your web browser.
 
 ##Copyright (c) 2015 Kyle Giard-Chase & Tanner Heffner
 

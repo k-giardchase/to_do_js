@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     var newTask = { name: inputName, notes: inputNotes, duedate: inputDueDate };
 
-    $("ul#tasks").append("<li><span class='task'" + "id='" + newTask.name + "'>" + newTask.name + "</li><input type='checkbox'" + "id='" + newTask.name + "'></span>");
+    $("ul#tasks").append("<span class='task'><li>" + newTask.name + "</li></span>");
 
     $("input#new-name").val("");
     $("input#new-notes").val("");
@@ -20,11 +20,18 @@ $(document).ready(function() {
       $(".notes").text(newTask.notes);
       $(".due-date").text(newTask.duedate);
 
-    });
+      //   $(function(){
+      //     $('.task').on('click', function() {
+      //       var b = $('<input type="button" class="btn-info complete-btn"/>');
+      //     $("#show-task").append(b)
+      //     });
+      //   });
+      // });
 
-    $('#' + $(this).name).click(function() {
+    $(".complete-btn").last().click(function() {
+      $(this).remove();
       $("#complete").show();
-      $("ul#finished").append("<li><span class='task'>" + newTask.name + "</span></li>");
+      $("ul#finished").append("<li><span class='completed-task'>" + newTask.name + "</span></li>");
 
     });
   });
