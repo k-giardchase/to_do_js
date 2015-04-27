@@ -14,6 +14,9 @@ Javascript <br>
 ##Use and Editing
 To use the app, `git clone` the repository. In the top level of the project folder, click on `todo.html` and open it in your web browser.
 
+##Known Bugs
+This app is currently a work in progress and the developers are working to resolve issues with it. Currently, the functionality to move a task to the completed list doesn't work.
+
 ##Copyright (c) 2015 Kyle Giard-Chase & Tanner Heffner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
